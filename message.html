@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Message</title>
+    <link rel="icon" href="images/ia_500000003.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/message.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="page-header">
+            <div class="header-top">
+                <div class="header-top-left">
+                    <ul>
+                        <li class="store">
+                            <span class="iconfont  icon-weizhi" style="font-size: 22px"></span>
+                        </li>
+                        <li class="contact">
+                            <a href="http://192.168.0.105/宝格丽/message.html">
+                                <span class="iconfont icon-xinfeng" style="font-size: 22px"></span>
+                            </a>
+                        </li>
+                        <li class="services">
+                            <span class="iconfont icon-dingcan" style="font-size: 22px"></span>
+                        </li>
+                    </ul>
+                    <div class="block block-search">
+                        <span class="iconfont icon-sousuo"></span>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="header-top-right">
+                    <ul class="headeraccounticon waitting-login">
+                        <li class="signin" style="display: block">
+                            <a href="http://192.168.0.105/宝格丽/login.html">
+                                登录
+                            </a>
+                            <a href="http://192.168.0.105/宝格丽/register.html">注册</a>
+                        </li>
+                        <li class="wish">
+                            <span class="iconfont icon-aixin" style="font-size: 22px ; "></span>
+                        </li>
+                        <li class="minicart-wrapper">
+                            <a href="">
+                                <span class="iconfont icon-shopping" style="font-size: 22px"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header content">
+                <strong class="logo">
+                    <img src="images/ia_500000002.png" alt="">
+
+                </strong>
+            </div>
+            <div class="sections nav-sections">
+                <div class="section-items nav-sections-items">
+                    <nav class="navigation">
+                        <ul class="menu" id="om">
+                            <li class="top-menu parent ">BVlGARI品牌</li>
+                            <li class="top-menu  ">故事</li>
+                            <li class="top-menu  ">高级珠宝</li>
+                            <li class="top-menu parent ">珠宝</li>
+                            <li class="top-menu parent ">BRIDAL系列</li>
+                            <li class="top-menu parent ">腕表</li>
+                            <li class="top-menu parent ">皮具</li>
+                            <li class="top-menu parent ">配件</li>
+                            <li class="top-menu parent ">香水</li>
+                            <li class="top-menu parent ">礼物</li>
+                            <li class="top-menu ">宝格丽酒店及度假村</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main id="maincontent" class="page-main">
+            <div class="column main">
+                <h1 class="contact-us-title"> 联系我们 </h1>
+            </div>
+            <div class="contact-us container-fluid mb-2">
+                <div class="row contact-row">
+                    <div class="col-12 col-md-6">
+                        <div class="call-us tell-us">
+                            <img src="">
+                            <h2>联系宝格丽服务中心</h2>
+                            <p class="mobile-btn">
+                                <img src=""> 400 000 6699</p>
+                        </div>
+                        <div id="wechat-grata" class="call-us chat-us">
+                            <img src="images/ia_500000013.jpg">
+                            <h2>在线咨询</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 qrcode">
+                        <div class="call-us">
+                            <img src="">
+                            <div class="qrcode-box row no-gutters">
+                                <div class="col-6 qrcode-left">
+                                    <h2 class="is-pc">关注微信联系我们</h2>
+                                    <h2 class="is-mobile">关注微信联系我们</h2>
+                                    <div class="img-box">
+                                        <img src="">
+                                    </div>
+                                </div>
+                                <div class="col-6 qrcode-right">
+                                    <h2>请扫描以下二维码
+                                        <br>获得宝格丽在线维修帮助</h2>
+                                    <div class="img-box">
+                                        <img src="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row service-time-wrapper">
+                    <div class="col-12 service-time">服务时间：周一至周日 9:00-23:00 </div>
+                </div>
+            </div>
+            <div class="col-12 service-time"></div>
+
+    </div>
+    <div class="contact-us container-fluid appointment-wrapper"></div>
+
+
+    </main>
+    <div class="page-bottom">
+        <div class="bul-locator " id="bottom_store_locator">
+            <h3>寻找附近店铺</h3>
+            <form action="https://www.bulgari.cn/zh-cn/storelocator/map/index/" method="POST" data-bind="blockLoader: isLoading" id="near-store-block"
+                class="near-store-block">
+                <div class="custom-form select">
+                    <select name="country" id="newcountry" class="input-text" data-bind="event:{'change':loadCity}" title="国家/地区">
+                        <option value="" en="">
+                            国家/地区 </option>
+                        <option value="CN" en="china">
+                            中国大陆 </option>
+                        <option value="MO" en="macau_sar">
+                            澳门特别行政区 </option>
+                        <option value="HK" en="hong_kong_s_a_r">
+                            香港特别行政区 </option>
+                        <option value="DK" en="denmark">
+                            丹麦 </option>
+                        <option value="UA" en="ukraine">
+                            乌克兰 </option>
+                        <option value="UY" en="uruguay">
+                            乌拉圭 </option>
+                        <option value="IL" en="israel">
+                            以色列 </option>
+                        <option value="IQ" en="iraq">
+                            伊拉克 </option>
+                        <option value="BZ" en="belize">
+                            伯利兹 </option>
+                        <option value="RU" en="russia">
+                            俄罗斯 </option>
+                        <option value="HR" en="croatia">
+                            克罗地亚 </option>
+                        <option value="GU" en="guam">
+                            关岛 </option>
+                        <option value="IS" en="iceland">
+                            冰岛 </option>
+                        <option value="LI" en="liechtenstein">
+                            列支敦士登 </option>
+                        <option value="CA" en="canada">
+                            加拿大 </option>
+                        <option value="HU" en="hungary">
+                            匈牙利 </option>
+                        <option value="ZA" en="south_africa">
+                            南非 </option>
+                        <option value="QA" en="qatar">
+                            卡塔尔 </option>
+                        <option value="IN" en="india">
+                            印度 </option>
+                        <option value="ID" en="indonesia">
+                            印度尼西亚 </option>
+                        <option value="GT" en="guatemala">
+                            危地马拉 </option>
+                        <option value="EC" en="ecuador">
+                            厄瓜多尔 </option>
+                        <option value="TW" en="taiwan">
+                            台湾地区 </option>
+                        <option value="KZ" en="kazakhstan">
+                            哈萨克斯坦 </option>
+                        <option value="CO" en="colombia">
+                            哥伦比亚 </option>
+                        <option value="CR" en="costa_rica">
+                            哥斯达黎加 </option>
+                        <option value="TM" en="turkmenistan">
+                            土库曼斯坦 </option>
+                        <option value="TR" en="turkey">
+                            土耳其 </option>
+                        <option value="LC" en="saint_lucia">
+                            圣卢西亚 </option>
+                        <option value="KN" en="saint_kitts_and_nevis">
+                            圣基茨和尼维斯 </option>
+                        <option value="BL" en="saint_barthélemy">
+                            圣巴泰勒米 </option>
+                        <option value="SM" en="san_marino">
+                            圣马力诺 </option>
+                        <option value="EG" en="egypt">
+                            埃及 </option>
+                        <option value="CY" en="cyprus">
+                            塞浦路斯 </option>
+                        <option value="MX" en="mexico">
+                            墨西哥 </option>
+                        <option value="DO" en="dominican_republic">
+                            多米尼加共和国 </option>
+                        <option value="AT" en="austria">
+                            奥地利 </option>
+                        <option value="VE" en="venezuela">
+                            委内瑞拉 </option>
+                        <option value="AO" en="angola">
+                            安哥拉 </option>
+                        <option value="AD" en="andorra">
+                            安道尔 </option>
+                        <option value="NP" en="nepal">
+                            尼泊尔 </option>
+                        <option value="BS" en="bahamas">
+                            巴哈马 </option>
+                        <option value="PK" en="pakistan">
+                            巴基斯坦 </option>
+                        <option value="BB" en="barbados">
+                            巴巴多斯 </option>
+                        <option value="PA" en="panama">
+                            巴拿马 </option>
+                        <option value="BH" en="bahrain">
+                            巴林 </option>
+                        <option value="BR" en="brazil">
+                            巴西 </option>
+                        <option value="GR" en="greece">
+                            希腊 </option>
+                        <option value="KY" en="cayman_islands">
+                            开曼群岛 </option>
+                        <option value="DE" en="germany">
+                            德国 </option>
+                        <option value="IT" en="italy">
+                            意大利 </option>
+                        <option value="LV" en="latvia">
+                            拉脱维亚 </option>
+                        <option value="NO" en="norway">
+                            挪威 </option>
+                        <option value="CZ" en="czech_republic">
+                            捷克共和国 </option>
+                        <option value="MA" en="morocco">
+                            摩洛哥 </option>
+                        <option value="MC" en="monaco">
+                            摩纳哥 </option>
+                        <option value="SK" en="slovakia">
+                            斯洛伐克 </option>
+                        <option value="SI" en="slovenia">
+                            斯洛文尼亚 </option>
+                        <option value="LK" en="sri_lanka">
+                            斯里兰卡 </option>
+                        <option value="SG" en="singapore">
+                            新加坡 </option>
+                        <option value="NZ" en="new_zealand">
+                            新西兰 </option>
+                        <option value="JP" en="japan">
+                            日本 </option>
+                        <option value="CL" en="chile">
+                            智利 </option>
+                        <option value="GE" en="georgia">
+                            格鲁吉亚 </option>
+                        <option value="BE" en="belgium">
+                            比利时 </option>
+                        <option value="SA" en="saudi_arabia">
+                            沙特阿拉伯 </option>
+                        <option value="FR" en="france">
+                            法国 </option>
+                        <option value="PL" en="poland">
+                            波兰 </option>
+                        <option value="TH" en="thailand">
+                            泰国 </option>
+                        <option value="HT" en="haiti">
+                            海地 </option>
+                        <option value="AU" en="australia">
+                            澳大利亚 </option>
+                        <option value="EE" en="estonia">
+                            爱沙尼亚 </option>
+                        <option value="JM" en="jamaica">
+                            牙买加 </option>
+                        <option value="TC" en="turks_and_caicos_islands">
+                            特克斯和凯科斯群岛 </option>
+                        <option value="BO" en="bolivia">
+                            玻利维亚 </option>
+                        <option value="SE" en="sweden">
+                            瑞典 </option>
+                        <option value="CH" en="switzerland">
+                            瑞士 </option>
+                        <option value="RE" en="réunion">
+                            留尼汪 </option>
+                        <option value="GI" en="gibraltar">
+                            直布罗陀 </option>
+                        <option value="KW" en="kuwait">
+                            科威特 </option>
+                        <option value="PE" en="peru">
+                            秘鲁 </option>
+                        <option value="TN" en="tunisia">
+                            突尼西亞 </option>
+                        <option value="JO" en="jordan">
+                            约旦 </option>
+                        <option value="US" en="united_states">
+                            美国 </option>
+                        <option value="VI" en="u_s__virgin_islands">
+                            美属维京群岛 </option>
+                        <option value="FI" en="finland">
+                            芬兰 </option>
+                        <option value="GB" en="united_kingdom">
+                            英国 </option>
+                        <option value="NL" en="netherlands">
+                            荷兰 </option>
+                        <option value="AN" en="netherlands_antilles">
+                            荷属安的列斯群岛 </option>
+                        <option value="PH" en="philippines">
+                            菲律宾 </option>
+                        <option value="PT" en="portugal">
+                            葡萄牙 </option>
+                        <option value="ES" en="spain">
+                            西班牙 </option>
+                        <option value="VN" en="vietnam">
+                            越南 </option>
+                        <option value="AZ" en="azerbaijan">
+                            阿塞拜疆 </option>
+                        <option value="AE" en="united_arab_emirates">
+                            阿拉伯联合酋长国 </option>
+                        <option value="OM" en="oman">
+                            阿曼 </option>
+                        <option value="AR" en="argentina">
+                            阿根廷 </option>
+                        <option value="AW" en="aruba">
+                            阿鲁巴 </option>
+                        <option value="KR" en="south_korea">
+                            韩国 </option>
+                        <option value="MY" en="malaysia">
+                            马来西亚 </option>
+                        <option value="MT" en="malta">
+                            马耳他 </option>
+                        <option value="LB" en="lebanon">
+                            黎巴嫩 </option>
+                    </select>
+                </div>
+                <div class="custom-form select">
+                    <select name="city" id="newcity" class="input-text" title="全部城市">
+                        <option value="">全部城市</option>
+                    </select>
+                </div>
+                <button class="bul-locator-submit" title="搜索" type="submit" data-cl-id="191822395">
+                    <span>搜索</span>
+                </button>
+            </form>
+
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="footer content">
+            <div class="footerCon">
+                <div class="footerMain">
+                    <div class="bul-footer-list bul-col-4-1 gtm">
+                        <h3>服务</h3>
+                        <ul>
+                            <li>联系我们</li>
+                            <li>常见问题</li>
+                            <li>客户关怀</li>
+                            <li>隐私政策</li>
+                            <li>通用天宽和条件</li>
+                            <li>COOKIE管理</li>
+                            <li>网站使用条约</li>
+                        </ul>
+                    </div>
+                    <div class="bul-footer-list bul-col-4-2 gtm">
+                        <h3>PRESS</h3>
+                        <ul>
+                            <li>PRESS LOUNGE </li>
+                            <li>DOWNLOAD LIFE IN BVLGARI </li>
+                        </ul>
+                    </div>
+                    <div class="bul-footer-list bul-col-4-3 gtm">
+                        <h3>关于Bvlgari</h3>
+                        <ul>
+                            <li>企业社会责任</li>
+                            <li> 关于Bvlgari</li>
+                            <li>宝格丽酒店及度假村</li>
+                        </ul>
+                    </div>
+                    <div class="bul-footer-list bul-col-4-4 gtm">
+                        <h3>社交网络</h3>
+                        <ul>
+                            <li>
+                                <span class="iconfont icon-weibo
+                                        " style="font-size: 24px"></span>
+                            </li>
+                            <li class="bul-footer-list-title bul-footer-stores">
+
+                                <h3>商店</h3>
+                                <li>查抄商店</li>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="bul-footer-cn">
+                        <p>沪公网安备 31010602002443号
+                            <br>
+                            <br>
+                            <img src="./images/ia_500000035.png" alt="">
+                        </p>
+                        <p>沪ICP备11001590号-2
+                            <br>
+                            <br>
+                            <img src="./images/ia_500000036.png" style="width: 25px;">
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bul-footer-options-foot-logo"></div>
+        <div class="bul-footer-options">
+
+
+
+        </div>
+    </footer>
+
+
+    </div>
+
+
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
